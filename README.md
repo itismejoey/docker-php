@@ -2,14 +2,14 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/joebiellik/php.svg)](https://hub.docker.com/r/joebiellik/php/)
 [![Docker Stars](https://img.shields.io/docker/stars/joebiellik/php.svg)](https://hub.docker.com/r/joebiellik/php/)
-[![Docker Build](https://img.shields.io/docker/automated/joebiellik/php.svg)](https://hub.docker.com/r/joebiellik/php/)
-[![Docker Build Status](https://img.shields.io/docker/build/joebiellik/php.svg)](https://hub.docker.com/r/joebiellik/php/)
+[![Docker Build](https://img.shields.io/docker/cloud/automated/joebiellik/php.svg)](https://hub.docker.com/r/joebiellik/php/)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/joebiellik/php.svg)](https://hub.docker.com/r/joebiellik/php/)
 
-Latest offical [PHP-FPM](https://hub.docker.com/_/php/) container configured with basic extensions and [production settings](https://github.com/php/php-src/blob/master/php.ini-production).
+Latest official [PHP-FPM](https://hub.docker.com/_/php/) container configured with basic extensions and [production settings](https://github.com/php/php-src/blob/master/php.ini-production).
 
-## Changes to offical container
+## Changes to official container
 
-### Extentions
+### Extensions
 
 - pdo_mysql
 - mysqli
@@ -24,7 +24,7 @@ Latest offical [PHP-FPM](https://hub.docker.com/_/php/) container configured wit
 
 ## Configuration
 
-See [example directory](https://github.com/jcbiellikltd/docker-dhcpd/tree/master/example) for sample config file showing how to use this container with [nginx](https://hub.docker.com/_/nginx/).
+See [example directory](https://github.com/jcbiellikltd/docker-php/tree/master/example) for sample config file showing how to use this container with [nginx](https://hub.docker.com/_/nginx/).
 
 ## Quickstart
 
