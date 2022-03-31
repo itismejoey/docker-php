@@ -5,7 +5,7 @@ RUN set -xe \
 	&& apt-get update \
 	&& apt-get install -y libicu-dev --no-install-recommends \
 	&& docker-php-ext-configure pdo_mysql --with-pdo-mysql=mysqlnd \
-	&& docker-php-ext-install -j$(nproc) pdo_mysql mysqli calendar intl \
+	&& docker-php-ext-install -j$(nproc) gd pdo_mysql mysqli calendar intl \
 	&& apt-get purge -y --auto-remove libicu-dev \
 	&& rm -rf /var/lib/apt/lists/*
 
